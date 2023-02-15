@@ -12,6 +12,8 @@ h2 {
     gap: 1.5rem;
 }
 
+
+
 @media (max-width: 1100px) {
     .posts {
         margin-top: 0;
