@@ -1,16 +1,16 @@
 import styles from "./projects.module.css";
-// import { AiFillGithub } from "react-icons/Ai";
+import { AiFillGithub } from "react-icons/ai";
 
-function Projects() {
+function Projects({ image, tituloImage, link, titulo }) {
   return (
     <div className={styles.project}>
-      <a className="links">
-        <img
-          src="https://w.wallhaven.cc/full/l3/wallhaven-l3q1op.png"
-          alt=""
-          className={styles.img}
-        />
-      </a>
+      <img src={image} alt={tituloImage} className={styles.img} />
+      <div className={styles.info}>
+        <p className={styles.titulo}>{titulo}</p>
+        <a className={styles.link} href={link}>
+          <AiFillGithub size={24} color={"#FFFFFF"} />{" "}
+        </a>
+      </div>
     </div>
   );
 }

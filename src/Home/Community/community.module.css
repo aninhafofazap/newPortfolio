@@ -1,35 +1,31 @@
-.container {
+.container__community {
     color: #000000;
     position: relative;
-    width: 100%;
 
 }
 
-.subtitle {
-    height: 204px;
-}
 
-
-.subtitle {
+.subtitle__community {
     font-family: 'Playfair Display';
     padding: 0 7.5rem;
     font-size: 4rem;
     display: flex;
     align-items: center;
+
 }
 
-.conteudo {
+.conteudo__community {
     padding: 2.5rem 7.5rem 4.5rem;
 }
 
 
-.foto {
+.foto__community {
     margin-bottom: .5rem;
     margin-left: 1.5rem;
     float: right;
 }
 
-.container .botao {
+.botao {
     display: block;
     background-color: #c8b6ff;
     color: #FFFFFF;
@@ -37,6 +33,8 @@
     padding: 24px;
     text-align: center;
     width: 179px;
+    margin: 0 auto 24px auto;
+
 }
 
 h4 {
@@ -44,7 +42,7 @@ h4 {
     font-size: 2.5rem;
 }
 
-.paragrafo {
+.paragrafo__community {
     text-align: justify;
     font-size: 1.5rem;
     line-height: 2.25rem;
@@ -52,29 +50,29 @@ h4 {
 }
 
 @media (max-width: 744px) {
-    .conteudo {
+    .conteudo__community {
         padding: 2rem 1.5rem 1.5rem;
     }
 }
 
 @media (max-width: 744px) {
 
-    .subtitle {
+    .subtitle__community {
         height: 104px;
     }
 
-    .subtitle {
+    .subtitle__community {
         padding: 0 1rem;
         font-size: 2rem;
     }
 
-    .conteudo {
+    .conteudo__community {
         padding: 2rem 1rem 1.5rem;
     }
 }
 
 @media (max-width: 414px) {
-    .foto {
+    .foto__community {
         width: 100%
     }
 }
