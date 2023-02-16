@@ -17,10 +17,11 @@ function Banner() {
           className={styles.circuloColorido}
           src={circuloColorido}
           aria-hidden={true}
+          alt="Imagem de um circulo"
         />
         <img
           className={styles.minhaFoto}
-          src="https:/github.com/aninhafofazap.png"
+          src="https://github.com/aninhafofazap.png"
           alt="Foto da Ana Victória"
         />
       </div>

@@ -1,5 +1,24 @@
 .skills {
+    padding: 0 6vw 3.625rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+
+.skills__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.title__skill {
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-size: 18px;
+    color: #000000;
+
+
 }
