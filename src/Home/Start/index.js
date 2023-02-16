@@ -3,6 +3,8 @@ import Skill from "../../Components/Skills";
 import styles from "./start.module.css";
 import image from "../../assets/pessoas-times.png";
 import imageSpace from "../../assets/space.png";
+import card from "../../assets/card.png";
+import robotrom from "../../assets/robotrom.png";
 
 function Start() {
   const projetos = [
@@ -15,8 +17,20 @@ function Start() {
     {
       link: "https://github.com/aninhafofazap/space",
       image: imageSpace,
-      tituloImage: "Imagem do projeto Organo",
+      tituloImage: "Imagem do projeto Space",
       titulo: "Space",
+    },
+    {
+      link: "https://github.com/aninhafofazap/Frontend-Mentor-Order-summary-card",
+      image: card,
+      tituloImage: "Imagem do projeto Summary",
+      titulo: "Order Summary",
+    },
+    {
+      link: "https://github.com/aninhafofazap/Robotron-2000",
+      image: robotrom,
+      tituloImage: "Imagem do projeto Robotrom 2000",
+      titulo: "Robotrom 2000",
     },
   ];
 
