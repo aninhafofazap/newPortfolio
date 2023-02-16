@@ -28,7 +28,7 @@ function Menu() {
           ${localizacao.pathname === "/labzone" ? styles.linkDestacado : ""}`}
             to="/labzone"
           >
-            Comunidade
+            Community
           </Link>
         </nav>
       </>

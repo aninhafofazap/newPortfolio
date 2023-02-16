@@ -36,7 +36,7 @@ function Start() {
 
   return (
     <>
-      <h2>Meus projetos</h2>
+      <h2>My projects</h2>
       <ul className={styles.projects}>
         {projetos.map((projeto) => (
           <li>
@@ -50,7 +50,7 @@ function Start() {
         ))}
       </ul>
       <div>
-        <h2>Meus conhecimentos</h2>
+        <h2>My knowledges</h2>
         <Skill />
       </div>
     </>
