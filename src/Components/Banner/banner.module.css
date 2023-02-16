@@ -94,7 +94,9 @@
     }
 
     .imagens>.minhaFoto {
-        width: 170px;
+
+        width: 100%;
+        max-width: 240px;
         transform: translate(5rem, 0px);
     }
 
