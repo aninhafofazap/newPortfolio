@@ -3,8 +3,6 @@ import styles from "./menu.module.css";
 
 function Menu() {
   const localizacao = useLocation();
-  console.log(localizacao);
-
   return (
     <header>
       <>
@@ -14,21 +12,21 @@ function Menu() {
         ${localizacao.pathname === "/" ? styles.linkDestacado : ""} `}
             to="/"
           >
-            Home
+            Início
           </Link>
           <Link
             className={`${styles.link} 
           ${localizacao.pathname === "/sobremim" ? styles.linkDestacado : ""}`}
             to="/sobremim"
           >
-            About me
+            Sobre Mim
           </Link>
           <Link
             className={`${styles.link} 
           ${localizacao.pathname === "/labzone" ? styles.linkDestacado : ""}`}
             to="/labzone"
           >
-            Community
+            Comunidade
           </Link>
         </nav>
       </>

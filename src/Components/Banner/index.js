@@ -5,7 +5,7 @@ function Banner() {
   return (
     <div className={styles.banner}>
       <div className={styles.apresentacao}>
-        <h1 className={styles.titulo}> Hi!</h1>
+        <h1 className={styles.titulo}> Olá!</h1>
         <p className={styles.descricao}>
           Esse é meu espaço pessoal onde você irá conhecer um pouco sobre mim e
           ver meus projetos. Estou iniciando minha carreira como Desenvolvedora
