@@ -23,6 +23,10 @@
   min-height: 100vh;
 }
 
+body {
+  background-color: #F7F4FD;
+}
+
 a, button, input, textarea {
   font: inherit;
   color: inherit;
