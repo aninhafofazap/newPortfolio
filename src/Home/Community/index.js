@@ -13,7 +13,7 @@ function Community() {
           alt="Icon da Lab Zone"
         />
         <p className={styles.paragrafo__community}>
-          Essa comunidade foi criada para que os amantes de programção assim
+          Essa comunidade foi criada para que os amantes de programação assim
           como eu possam se interagir e compartilhar conhecimentos.
         </p>
       </div>
